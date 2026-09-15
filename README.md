@@ -37,7 +37,7 @@ PiShield is the first framework ever allowing for the integration of requirement
 
 :pencil2: **Inference and training.** The requirements can be integrated at inference time and at training time, depending on the practitioners' needs.
 
-:link: **Expressive requirements.** PiShield supports hierarchical, propositional, linear, and quantifier-free linear real arithmetic (QFLRA) requirements — from class hierarchies to boolean logic to numerical constraints.
+:link: **Expressive Requirements.** PiShield supports hierarchical, propositional, linear, and quantifier-free linear real arithmetic (QFLRA) requirements — from class hierarchies to boolean logic to numerical constraints.
 
 :zap: **Drop-in and differentiable.** A Shield Layer is a single differentiable layer you add on top of any model, so gradients flow through it and it fits into existing training loops with minimal changes.
 
