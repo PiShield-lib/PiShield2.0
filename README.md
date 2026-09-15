@@ -44,7 +44,7 @@ PiShield is the first framework ever allowing for the integration of requirement
 ## :pushpin: Dependencies
 PiShield requires Python 3.8 or later and PyTorch.
 
-*Optional step*: conda environment setup, using cpu-only PyTorch here. Different PyTorch versions can be specified following the instructions [here](https://pytorch.org/get-started/locally/).
+*Optional Step*: conda environment setup, using cpu-only PyTorch here. Different PyTorch versions can be specified following the instructions [here](https://pytorch.org/get-started/locally/).
 ```
 conda create -n "pishield" python=3.11 ipython 
 conda activate pishield
