@@ -2,8 +2,8 @@ from __future__ import annotations
 
 from itertools import product
 
-from resolution import CompiledConstraints
-from signed_clauses import ConstraintSet, SignedClause
+from pishield.categorical_requirements.resolution import CompiledConstraints
+from pishield.categorical_requirements.signed_clauses import ConstraintSet, SignedClause
 
 
 class NotFunctionalDAG(ValueError):

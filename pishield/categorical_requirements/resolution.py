@@ -10,7 +10,7 @@ from math import comb
 from pathlib import Path
 from typing import Callable, Iterable
 
-from signed_clauses import (
+from pishield.categorical_requirements.signed_clauses import (
     ConstraintSet,
     SignedClause,
     SignedLiteral,

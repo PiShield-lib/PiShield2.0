@@ -3,8 +3,8 @@ from __future__ import annotations
 import torch
 import torch.nn as nn
 
-from constraints import Constraints
-from minedit import MinEditL2
+from pishield.categorical_requirements.constraints import Constraints
+from pishield.categorical_requirements.minedit import MinEditL2
 
 
 class CasperLayer(nn.Module):

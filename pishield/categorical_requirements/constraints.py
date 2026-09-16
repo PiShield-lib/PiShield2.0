@@ -4,13 +4,13 @@ import json
 from pathlib import Path
 from typing import Callable, Iterable
 
-from resolution import (
+from pishield.categorical_requirements.resolution import (
     ClauseFeasibility,
     CompiledConstraints,
     compile_constraints,
     from_json as _resolution_from_json,
 )
-from signed_clauses import parse_constraints
+from pishield.categorical_requirements.signed_clauses import parse_constraints
 
 
 class Constraints:

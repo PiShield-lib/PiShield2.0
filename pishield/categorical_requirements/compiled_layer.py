@@ -5,8 +5,8 @@ from pathlib import Path
 import torch
 import torch.nn as nn
 
-from casper_layer import CasperLayer
-from constraints import Constraints
+from pishield.categorical_requirements.casper_layer import CasperLayer
+from pishield.categorical_requirements.constraints import Constraints
 
 
 class CompiledConstraintLayer(nn.Module):
